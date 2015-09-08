@@ -1,0 +1,104 @@
+<div id="kontakt" class="container margin padding30">
+  <h2>Kontaktní údaje</h2>
+    <div class="container container-kontakt">
+      <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+        <div id="address">
+          <table>
+            <tr><td></td><td><span class="text-tucny"><em>Geomorava s.r.o.</em></span></td></tr>
+            <tr><td><span class="kapitalky">sídlo </span></td><td>Milíčova 2643/13</td></tr>
+            <tr><td><span class="kapitalky"></span></td><td>Prostějov</td></tr>
+            <tr><td><span class="kapitalky"></span></td><td>796 01</td></tr>
+            <tr><td><span class="kapitalky">ič</span></td><td>79601</td></tr>
+            <tr><td><span class="kapitalky">dič</span></td><td>CZ79601</td></tr>
+            <tr><td><span class="kapitalky">e-mail </span></td><td><a href="mailto:info@geomorava.cz">info@geomorava.cz</a></td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="margin" id="map-canvas" ></div>
+      </div>
+    </div>
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div id="address">
+              <table>
+                <tr><td><span class="kapitalky"></span></td><td><span class="text-tucny">Martin Lessy</span></td></tr>
+                <tr><td><span class="kapitalky"></span></td><td><em>obchodní zástupce</em></td></tr>
+                <tr><td><span class="kapitalky">tel. </span></td><td>+420 725 533 526</td></tr>
+                <tr><td><span class="kapitalky">e-mail </span></td><td><a href="mailto:lessy@geomorava.cz">lessy@geomorava.cz</a</td></tr>
+              </table>
+            </div>
+        </div>
+        <div class="col-md-4  col-lg-4 col-sm-12 col-xs-12">
+            <div id="address">
+              <table>
+                <tr><td><span class="kapitalky"></span></td><td><span class="text-tucny">Mgr. Lenka Pešková</span></td></tr>
+                <tr><td><span class="kapitalky"></span></td><td><em>obchodní zástupkyně</em></td></tr>
+                <tr><td><span class="kapitalky">tel. </span></td><td>+420 725 533 525</td></tr>
+                <tr><td><span class="kapitalky">e-mail </span></td><td><a href="mailto:peskova@geomorava.cz">peskova@geomorava.cz</a></td></tr>
+              </table>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4  col-sm-12 col-xs-12">
+              <div id="address">
+                <table>
+                  <tr><td><span class="kapitalky"></span></td><td><span class="text-tucny">Mgr. Markéta Solanská</span></td></tr>
+                    <tr><td><span class="kapitalky"></span></td><td><em>technická podpora</em></td></tr>
+                  <tr><td><span class="kapitalky">tel. </span></td><td>+420 725 533 596</td></tr>
+                  <tr><td><span class="kapitalky">e-mail </span></td><td><a href="mailto:solanska@geomorava.cz">solanska@geomorava.cz</a></td></tr>
+                </table>
+              </div>
+        </div>
+      </div>
+      </div>
+    <div class="row">
+    </div>
+</div>
+  <div id="kontakt_nas" class="pozadi_reference">
+    <div class="container">
+          <h3>Kontaktujte nás</h3>
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+          <form action="odeslano.php" method="post" class="form-horizontal" role="form">
+            <input type="text" name="url" id="url" />
+            <div class="form-group">
+              <label for="odesilatel_mail" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 control-label">
+                Váš email:
+              </label>         
+              <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">   
+                <input type="email" name="odesilatel_mail"
+                id="odesilatel_mail" size="30" maxlength="30"
+                class="form-control" placeholder="zadejte email" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="predmet"  class="col-lg-2 col-md-2 col-sm-3 col-xs-3 control-label">
+                Předmět:
+              </label>
+              <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">   
+                <input type="text" name="predmet" id="predmet"
+                size="30" maxlength="60" class="form-control"
+                placeholder="zadejte předmět zprávy" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="zprava" class="col-lg-2 col-md-2 col-sm-3 col-xs-3 control-label">
+                Zpráva:
+              </label>
+              <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">   
+                <textarea id="zprava" cols="33" rows="5" name="zprava" 
+                  class="form-control" required
+                  placeholder="zde napište text vaší zprávy"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-3 col-xs-4 col-lg-offset-3">   
+                <input value="Odeslat" type="submit" class="btn btn-info" />
+              </div>
+            </div>
+          </form>
+        </div><!--kontakt_nas -->
+      </div>
+    </div>
+  </div> <!-- div container-kontakt -->
+</div>
