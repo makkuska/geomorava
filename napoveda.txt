@@ -1,0 +1,45 @@
+################################################################################
+###                                                                          ###
+###  DULEZITE! - Prosime, nemazte vytvorene adresare na virtualnim serveru!  ###
+###                                                                          ###
+################################################################################
+
+
+Vazeny uzivateli,
+
+v tomto okamziku jste prihlasen k Vasemu virtualnimu serveru. V okne FTP programu se vam zobrazuji tri adresare, kazdy z nich ma presne vymezenou funkci. 
+
+Platforma Linux
+---------------
+
+WWW - adresar, kam je treba umistit Vasi WWW prezentaci. Vase hlavni stranka - homepage - by se mela jmenovat napriklad: index.htm, index.html, index.php.
+
+LOG - adresar, ve kterem se archivuji informace o pristupu na Vase WWW stranky v podobe logovych souboru weboveho serveru.
+
+STATS - adresar, ve kterem se nachazi statistiky pristupu na Vase WWW stranky.
+
+------------------------------------------------------------------------------------------------
+
+Navod na pouzivani vsech sluzeb a technickou podporu naleznete na adrese http://forum.ignum.cz/. Jakekoliv dotazy Vam radi zodpovime na nasi telefonicke hotline nebo emailem.
+
+KONTAKTY:
+=========
+HOTLINE 24/7: 603 111 111
+Zelena linka 24/7: 800 1IGNUM (800 144 686)
+Fax: 296 332 222
+
+Technicka podpora: helpdesk@ignum.cz
+Servehosting: serverhosting@ignum.cz
+Obchodni informace: obchod@ignum.cz
+Danove doklady, platby a fakturace: fakturace@ignum.cz
+Marketing a PR: marketing@ignum.cz
+
+Tesime se na spolupraci a prejeme hodne uspechu pri praci na Internetu.
+
+S pozdravem
+Tym firmy IGNUM s.r.o.
+-------------------------------------------------
+IGNUM, s.r.o. | Vinohradska 190 | Praha 3 | 130 61
+Tel: +420 296 332 211 | Fax: +420 296 332 222
+Mobil: +420 603 111 111 | +420 604 111 111
+Web: http://www.ignum.cz | http://www.domena.cz

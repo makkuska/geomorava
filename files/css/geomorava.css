@@ -9,8 +9,16 @@ body {
   font-family: ubuntu;
 }
 
+p {
+  text-indent: 10px;
+}
+
 .navbar-default {
   border-color:#888
+}
+
+hr {
+  border-top-color: #DDDDDD;
 }
 
 img {
@@ -40,6 +48,11 @@ img {
 
 h2 {
   color: #772953;
+}
+
+#sluzby h2 {
+  margin-top:20px;
+  margin-bottom:20px
 }
 
 h3 {
@@ -180,17 +193,13 @@ table td:first-child {
   }
   .ukazkaC {
   background: url(reference_ukazkaC_v1.png);
+  margin-top: 20px;
   }
   .ukazkaD {
   background: url(reference_ukazkaD_v1.png);
   }
   .ukazka:hover, .ukazka:focus {
   background-position: 0 -208px;
-  }
-/* 2 sekce ---------------------------- 2 sekce -- zaměstnankyně EU */
-  #zamest {
-  margin-top: 20px;
-  margin-bottom: 20px;
   }
 
 /* ---------------------------- horní lišta změna barvy telefon */
@@ -217,12 +226,6 @@ table td:first-child {
     padding-top:0px;
   }
 
-  #sluzby h4 {
-    font-size:22px;
-    color: #772953
-  }
-
-  
 
 /* ---------------------------- reference */
   #table {
@@ -372,6 +375,7 @@ table td:first-child {
   #paticka a, #paticka p {
     color: #777;
     text-decoration:none;
+    text-indent: 0px;
   }
 
   #paticka a:hover {
