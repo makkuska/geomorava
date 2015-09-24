@@ -43,7 +43,7 @@
           mail($from, $subjectCopy, $messageCopy, $hlavicka);
           $page3 = '<br /><div class="jumbotron"><div class="container">';
           $page3 .= '<p>Váš mail byl úspěšně odeslán. Děkujeme za Vaši zprávu či dotaz.</p>';
-          $page3 .= '<p> Po přečtení se budeme snažit, co nejdříve odpovědět na Váš e-mail ('.$to.').</p>';
+          $page3 .= '<p> Po přečtení se budeme snažit, co nejdříve odpovědět na Váš e-mail ('.$from.').</p>';
           $page3 .= '<p><a class="btn btn-default" href="http://www.geomorava.cz">Zpět na geomorava.cz</a></p>';
           $page3 .= '</div></div>';
           echo ($page3);

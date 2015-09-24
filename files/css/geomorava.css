@@ -46,6 +46,11 @@ img {
   padding: 15px
 }
 
+.padding10 {
+  padding: 10px
+}
+
+
 h2 {
   color: #772953;
 }
@@ -53,6 +58,11 @@ h2 {
 #sluzby h2 {
   margin-top:20px;
   margin-bottom:20px
+}
+
+#kontakt-nadpis h2 {
+  margin-top:20px;
+  margin-bottom:10px;
 }
 
 h3 {
@@ -238,6 +248,7 @@ table td:first-child {
     background-color: #d1a9a9;
   }
 
+
   #citace p{
    /* margin-left: 120px;
     margin-right: 120px;*/
@@ -370,6 +381,7 @@ table td:first-child {
 /* ---------------------------- paticka */
   #paticka {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   #paticka a, #paticka p {
