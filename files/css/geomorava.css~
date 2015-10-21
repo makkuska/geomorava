@@ -353,7 +353,7 @@ table td:first-child {
   }
 
   #map-canvas {
-    height:230px; 
+    height:225px; 
     width:100%;
     border-color: #cd5d6c;
     border-width: 2px;
